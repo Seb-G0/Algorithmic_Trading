@@ -202,7 +202,7 @@ def OpenMeteoBuilder():
             "start_date": "2000-01-01",
             "end_date": "2023-12-31",
             "daily": ["temperature_2m_mean", "sunshine_duration", "precipitation_sum"],
-            "apikey": "KNxY5bxBJw9itbk7"
+            "apikey": "XXXXXXXXXXXXX" #No free uses for you
         }
         responses = openmeteo.weather_api(url, params=params)
         """This data still needs to be processed before being stored in OpenMeteo.CSV"""
